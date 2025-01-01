@@ -99,17 +99,22 @@ header h1 {
     text-align: left;
 }
 
+.category1 * {
+    text-align: left; /* Garante que todos os elementos internos fiquem alinhados à esquerda */
+}
+
 .category1 h2 {
     font-size: 24px; /* Tamanho maior para o título */
     color: #00ffff; /* Cor ciano */
     border-bottom: 2px solid #00ffff; /* Linha abaixo do título */
     padding-bottom: 5px; /* Espaçamento abaixo do título */
     margin-bottom: 15px; /* Espaçamento geral do título */
+    text-align: left;
 }
 
 .category1 h3 {
     font-size: 20px; /* Tamanho menor que o h2 */
-    color: #fff; /* Cor branca */
+    color: #00ffff; /* Cor ciano */
     margin-bottom: 10px; /* Espaçamento abaixo do subtítulo */
 }
 
